@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIU</title>
+    <link rel="shortcut icon" href="images/diulogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b21920a636.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/diulogo.png" alt="Logo of DIU"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fas fa-ellipsis-v" onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>World's Biggest University</h1>
+    <p>
+        At Daffodil International University, students get the opportunity to think, learn and grow.<br>build your career and accomplish your goal, we are offering 31 undergraduate and master's programs under 5 faculties.
+    </p>
+    <a href="" class="hero-btn">Visit us to lnow more</a>
+</div>
+
+</section>
+
+<!------Course------>
+
+<section class="course">
+    <h1>Course we Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique exercitationem corrupti molestiae reprehenderit illum quas repellendus tenetur mollitia enim accusamus, id deserunt harum dicta totam a quos numquam placeat tempora!</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu------> 
+
+
+<script>
+    var navLinks =document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+
+
+</script>
+
+
+
+
+</body>
+</html>
