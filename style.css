@@ -220,10 +220,15 @@ h3{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
+    
 }
 .facilities-col img{
     width: 100%;
     border-radius: 10px;
+    transition: 0.5s;
+}
+.facilities-col img:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 .facilities-col p{
     padding: 0;
